@@ -1,0 +1,10 @@
+# Go build artifacts
+go/example/example
+
+# TypeScript build output
+typescript/dist/
+typescript/node_modules/
+
+# General
+*.log
+.DS_Store

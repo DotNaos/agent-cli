@@ -1,0 +1,24 @@
+{
+  "name": "@dotnaos/agent-cli",
+  "version": "0.1.0",
+  "description": "Framework for building agent-friendly CLIs with required commands (completions, skill, logs)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/agentcli.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["cli", "agent", "framework", "commander"],
+  "author": "DotNaos",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "commander": "^14.0.3",
+    "yaml": "^2.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^6.0.2"
+  }
+}
